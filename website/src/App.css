@@ -1,41 +1,131 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+
+.HomeMainImage h1{
+  position:absolute;
+  font-family: 'Russo One', sans-serif;
+  font-size: 60px;
+  text-transform: capitalize;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
+  color: #1b1d1f;
+  letter-spacing: 0em;
+ 
+}
+.HomeMainImage .Logo{
+  position:absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.HomeMainImage .content{
+  position:absolute;
+  top: 59%;;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+ 
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.HomeMainImage .sensor{
+  position:absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.Y1 {
+  transform: translate(-68px, 167px) rotate(-85deg);
 }
 
-.card {
-  padding: 2em;
+.O1 {
+  transform: translate(-89px, 152px) rotate(283deg);
+
 }
 
-.read-the-docs {
-  color: #888;
+.e2 {
+  transform: translate(-103px, 134px) rotate(-79deg)
 }
+
+.k1 {
+  transform: translate(-113px, 120px) rotate(-75deg);
+}
+.sear{
+  transform: translate(-128px, 75px) rotate(-58deg);
+
+}
+.ch{
+  transform: translate(-148px, 36px) rotate(-47deg)
+}
+
+.for {
+  transform: translate(-145px, 1px) rotate(-35deg);
+}
+.par {
+  transform: translate(-132px, -26px) rotate(-11deg);
+}
+.king {
+  transform: translate(-132px, -27px) rotate(3deg);
+}
+.spa {
+  transform: translate(-120px, -14px) rotate(18deg);
+}
+.ce{
+  transform: translate(-123px, 4px) rotate(27deg);
+}
+.en{
+  transform: translate(-117px, 36px) rotate(44deg);
+}
+.ds{
+  transform: translate(-128px, 65px) rotate(52deg);
+
+}
+.he{
+  transform:translate(-141px, 117px) rotate(77deg)
+}
+.re{
+  transform: translate(-169px, 150px) rotate(89deg);
+}
+.e4 {
+  transform: translate(-6px, 40px) rotate(20deg);
+}
+
+/* An inline-block element is placed as an inline
+element (on the same line as adjacent content), 
+but it behaves like a block element  */
+
+span {
+  display: inline-block;
+  font-size: 32px;
+  font-weight: bold;
+  
+}
+
+.container {
+  top: 86%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 62%;
+  margin-left: auto;
+  margin-right: auto;
+  position:absolute;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: aliceblue;
+  background-color: #1b1d1f;
+  border: 1px solid rgb(11, 11, 11);
+}
+
+
