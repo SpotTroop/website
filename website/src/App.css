@@ -148,19 +148,52 @@ span {
   width: 30vw;
   flex-direction: column;
 }
-.SpotFinder .left .headerr{
-  display: block;
-}
+
 
 .DownloadButton{
     display: flex;
     align-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 7rem;
+    margin-top: 3rem;
 }
 
 .SpotFinder .right{
+  display: flex;
+  width: 50vw;
+  height: 100vh;
+}
+/* .......... */
+.SpotSense{
+  display:flex;
+  width: 100vw;
+  height: 100vh;
+  line-height: 1.5em;
+}
+
+.SpotSense .left{
+  display: flex;
+  justify-content: center;
+
+  width: 50vw;
+  height: auto;
+}
+.SpotSense .left .para{
+  display: flex;
+  width: 30vw;
+  flex-direction: column;
+}
+
+
+.DownloadButton{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.SpotSense .right{
   display: flex;
   width: 50vw;
   height: 100vh;
@@ -229,5 +262,9 @@ span {
   height: 30px;
   border-radius: 0 0 45px 45px;
 }
-
+.sensor1{
+  position: absolute;
+  left: 50%;
+  transform: translate(238%, 1415%);
+}
 
