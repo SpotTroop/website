@@ -142,7 +142,7 @@ const Home = () => {
               warnings for traffic management ​purposes.
             </p>
             <div class="DownloadButton">
-              <button class="button">Order now</button>
+              <button class="button">Get in Touch</button>
             </div>
           </div>
         </div>
