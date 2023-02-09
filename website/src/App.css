@@ -132,7 +132,7 @@ span {
 .SpotFinder{
   display:flex;
   width: 100vw;
-  height: 100vh;
+  margin-top: 100px;
   line-height: 1.5em;
 }
 
@@ -161,14 +161,13 @@ span {
 .SpotFinder .right{
   display: flex;
   width: 50vw;
-  height: 100vh;
 }
-/* .......... */
 .SpotSense{
   display:flex;
   width: 100vw;
-  height: 100vh;
+  margin-top: 100px;
   line-height: 1.5em;
+  
 }
 
 .SpotSense .left{
@@ -196,7 +195,7 @@ span {
 .SpotSense .right{
   display: flex;
   width: 50vw;
-  height: 100vh;
+  
 }
 
 .mobile {
@@ -267,4 +266,26 @@ span {
   left: 50%;
   transform: translate(238%, 1415%);
 }
+/* team member image section */
+.team {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.member {
+  text-align: center;
+  padding: 5px;
+}
+
+.headerr{
+  
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 65px;
+  font-size: 40px;
+  font-weight:normal;
+}
+
 

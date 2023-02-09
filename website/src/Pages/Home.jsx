@@ -14,26 +14,26 @@ const Home = () => {
             transform: "translate(-27%, -42%)",
           }}
         >
-          <span class="Y1">Y</span>
-          <span class="O1">o</span>
-          <span class="e2">u</span>
-          <span class="k1">r</span>
+          <span className="Y1">Y</span>
+          <span className="O1">o</span>
+          <span className="e2">u</span>
+          <span className="k1">r</span>
           <span className="sear">sear</span>
           <span className="ch">ch</span>
-          <span class="for">for</span>
-          <span class="par">par</span>
-          <span class="king">king</span>
-          <span class="spa">spa</span>
-          <span class="ce">ce</span>
+          <span className="for">for</span>
+          <span className="par">par</span>
+          <span className="king">king</span>
+          <span className="spa">spa</span>
+          <span className="ce">ce</span>
           <span className="en">en</span>
           <span className="ds">ds</span>
           <span className="he">he</span>
           <span className="re">re</span>
         </div>
 
-        <div class="container">
-          <button class="button">Try for free</button>
-          <button class="button">pricing plane</button>
+        <div className="container">
+          <button className="button">Try for free</button>
+          <button className="button">pricing plane</button>
         </div>
         <img
           src="../src/assets/Parking.webp"
@@ -47,7 +47,7 @@ const Home = () => {
           height={91.01}
           className="Logo"
         />
-        {/* <img src="../src/assets/HomePageContent.webp" alt="" width={582} height={292} className="content" /> */}
+        {/* <img src="../src/assets/HomePageContent.webp" alt="" width={582} height={292} classNameName="content" /> */}
         <img
           src="../src/assets/SensorImage.webp"
           alt="Sensor"
@@ -69,18 +69,18 @@ const Home = () => {
               Just download the app and start driving to your next ​parking
               spot.
             </p>
-            <div class="DownloadButton">
-              <button class="button">Download</button>
+            <div className="DownloadButton">
+              <button className="button">Download</button>
             </div>
           </div>
         </div>
         <div className="right">
-          <div class="mobile">
-            <div class="phone">
-              <div class="phone-mirror">
-                <div class="topWrapper">
-                  <div class="camera"></div>
-                  <div class="line-rec"></div>
+          <div className="mobile">
+            <div className="phone">
+              <div className="phone-mirror">
+                <div className="topWrapper">
+                  <div className="camera"></div>
+                  <div className="line-rec"></div>
                 </div>
                 <img
                   src="../src/assets/Map.png"
@@ -107,8 +107,8 @@ const Home = () => {
               ​these smart parking sensors on your parking lot. Get in in ​touch
               with us using the button below.
             </p>
-            <div class="DownloadButton">
-              <button class="button">Order now</button>
+            <div className="DownloadButton">
+              <button className="button">Order now</button>
             </div>
           </div>
         </div>
@@ -119,13 +119,8 @@ const Home = () => {
             style={{ objectFit: "cover", width: "534px", height: "621px" }}
             className="content"
           />
-          <img
-            src="../src/assets/SensorImage.webp"
-            alt="Sensor"
-            width={93.49}
-            height={30.39}
-            className="sensor1"
-          />
+          <img src="../src/assets/SensorImage.webp" alt="Sensor"  width={93.49}  height={30.39}
+            className="sensor1"/>
         </div>
       </div>
 
@@ -141,19 +136,56 @@ const Home = () => {
               We also plan to use the power of AI to provide ​suggestions and
               warnings for traffic management ​purposes.
             </p>
-            <div class="DownloadButton">
-              <button class="button">Get in Touch</button>
+            <div className="DownloadButton">
+              <button className="button">Get in Touch</button>
             </div>
           </div>
         </div>
         <div className="right">
-          <img
-            src="../src/assets/SearchingImage.webp"
-            alt="​Analytics picture"
-            style={{  width: "688px", height: "359px" }}
-            className="content"
+          <img src="../src/assets/SearchingImage.webp" alt="​Analytics picture"
+            style={{ width: "688px", height: "359px" }} className="content"
           />
+        </div>
+      </div>
+      <p className="headerr">The team behind the parking revolution</p>
+      <div className="team">
         
+        <div className="member">
+          <img src="../src/assets/erik.png" alt="erik" width={166} height={175}  />
+          <p>Eric Astor </p>
+          <p>CFO</p>
+        </div>
+        <div className="member">
+          <img src="../src/assets/florian.png" alt="florian" width={166} height={175}  />
+          <p>Florian Manthey </p>
+          <p>CEO</p>
+        </div>
+        <div className="member">
+          <img src="../src/assets/waqar.png"  alt="waqar" width={166} height={175}/>
+          <p>Waqar Rashid </p>
+          <p>CTO</p>
+        </div>
+      </div>
+      <p className="headerr">Pricing Plans</p>
+      <div className="team">
+        
+        <div className="member">
+          <img src="../src/assets/Pa​rkingLotOwners.jpg" alt="Pa​rking Lot Owners" width={303} height={192}  />
+          <p>Pa​rking lot owners/operators</p>
+          <p>Price: 5€/month/sensor</p>
+          
+        </div>
+        <div className="member">
+          <img src="../src/assets/govt.jpg" alt="government " width={303} height={192}  />
+          <p>Government </p>
+          <p>On-Demand reports, access to live data ​</p>
+          <p>feeds, analytics software, shared ​</p>
+          <p>earning ​model</p>
+        </div>
+        <div className="member">
+          <img src="../src/assets/driver.jpg"  alt="driver image" width={303} height={192}/>
+          <p>For Driver </p>
+          <p>5€/month</p>
         </div>
       </div>
     </>
