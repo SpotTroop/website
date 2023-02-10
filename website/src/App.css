@@ -288,4 +288,44 @@ span {
   font-weight:normal;
 }
 
+.groupBttons{
+  display: flex;
+  margin: 2%;
+  padding: 5px;
+}
 
+
+.footer{
+  display: flex;
+  margin: 5%;
+  margin-top: 71px;
+  margin-bottom: 0;
+}
+.footer .left{
+   display: flex;
+   
+   width: 37vw;
+   height: 100vh;
+}
+.footer .left img{
+
+  width:600px;
+   height:867px;
+   object-fit: cover;
+}
+.footer .right{
+  display: flex;
+  height: 100%;
+  width: 50%;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .right img{
+  margin-top: 50px;
+}
+
+.footer .right .address p{
+  padding: 90px;
+  font-size:x-large;
+  line-height: 1.2;
+}

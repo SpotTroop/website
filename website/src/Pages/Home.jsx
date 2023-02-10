@@ -1,8 +1,10 @@
 import React from "react";
 
+
 const Home = () => {
   return (
     <>
+     
       <div className="HomeMainImage">
         <h1>SpootTroop</h1>
         <div
@@ -187,6 +189,35 @@ const Home = () => {
           <p>For Driver </p>
           <p>5€/month</p>
         </div>
+      </div>
+      <div className="groupBttons">
+        <button className="button">Sign Up</button>
+        <button className="button">Request quotation</button>
+        <button className="button">Get in touch</button>
+      </div>
+      <div className="footer">
+        <div className="left">
+          <img src="../src/assets/footerParking.jpg" alt="" 
+          />
+        </div>
+        <div className="right">
+        <img
+          src="../src/assets/Logo.webp"
+          alt="Logo"
+          width={152.01}
+          height={152.01}
+          
+        />
+        <p style={{fontSize:'35px'}}>Driving in circles, no more.</p>
+        
+        <div className="address">
+          <p> Kuhnkestraße 6, 24118 Kiel,< br/>Germany</p>
+           
+
+          <p>info@spottroop.com</p> 
+         </div>
+        </div>
+        
       </div>
     </>
   );
