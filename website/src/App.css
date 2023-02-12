@@ -325,7 +325,22 @@ span {
 }
 
 .footer .right .address p{
-  padding: 90px;
+  padding: 90px 90px 0px 90px;
   font-size:x-large;
   line-height: 1.2;
+}
+.footer .right .img{
+  width: 32%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.footer .right .img img{
+
+  display: flex;
+  padding: auto;
+  cursor: pointer;
+  flex-direction: row;
 }

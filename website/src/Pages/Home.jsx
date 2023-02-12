@@ -216,9 +216,15 @@ const Home = () => {
 
           <p>info@spottroop.com</p> 
          </div>
+          <div className="img">
+          <img src="../src/assets/inIcon.svg" alt="linkedIn icon" width={24} height={24}  />
+          <img src="../src/assets/twitterIcon.svg" alt="Twitter Icon" width={24} height={24} />
+          <img src="../src/assets/facebookIcon.svg" alt="Face Book Icon" width={24} height={24}/>
         </div>
-        
+        </div>
+       
       </div>
+
     </>
   );
 };
