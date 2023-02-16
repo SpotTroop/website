@@ -1,10 +1,11 @@
 import React from "react";
+import Header from "../component/Header";
 
 
 const Home = () => {
   return (
     <>
-     
+     <Header/>
       <div className="HomeMainImage">
         <h1>SpootTroop</h1>
         <div
@@ -222,8 +223,7 @@ const Home = () => {
           <img src="../src/assets/facebookIcon.svg" alt="Face Book Icon" width={24} height={24}/>
         </div>
         </div>
-       
-      </div>
+        </div>
 
     </>
   );

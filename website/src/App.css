@@ -1,4 +1,45 @@
+header{
+    position: fixed;
+    display: flex;
+    text-decoration: none;
+    background-color: #1b1d1f;
+    width: 100vw;
+    height: 58px;
+    color: rgb(247, 248, 249);
+    justify-content: space-around;
+    z-index: 99;
+    
+}
 
+nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+ 
+  width: 100%;
+}
+.nav-ul .nav-link a{
+  display: flex;
+  color: aliceblue;
+  font-family: 'Russo One', sans-serif;
+  
+}
+.Logo{
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.Logo img{
+  width: 34px;
+  height: 34px;
+}
+.Logo p{
+  font-family: 'Russo One', sans-serif;
+  font-weight: bold;
+  font-size: xx-large;
+}
 
 .HomeMainImage h1{
   position:absolute;
@@ -344,3 +385,4 @@ span {
   cursor: pointer;
   flex-direction: row;
 }
+
