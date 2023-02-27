@@ -171,18 +171,18 @@ span {
 }
 
 .SpotFinder{
-  display:flex;
-  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+ 
   margin-top: 100px;
   line-height: 1.5em;
+  justify-content: center;
 }
 
 .SpotFinder .left{
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 50vw;
-  height: auto;
+  width: 50%;
 }
 .SpotFinder .left .para{
   display: flex;
@@ -201,29 +201,27 @@ span {
 
 .SpotFinder .right{
   display: flex;
-  width: 50vw;
+  
 }
 .SpotSense{
-  display:flex;
-  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 100px;
   line-height: 1.5em;
+  justify-content: center;
   
 }
 
 .SpotSense .left{
   display: flex;
-  justify-content: center;
-
   width: 50vw;
-  height: auto;
+
 }
 .SpotSense .left .para{
   display: flex;
   width: 30vw;
   flex-direction: column;
 }
-
 
 .DownloadButton{
     display: flex;
@@ -235,12 +233,9 @@ span {
 
 .SpotSense .right{
   display: flex;
-  width: 50vw;
-  
 }
 
 .mobile {
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -319,7 +314,15 @@ span {
   text-align: center;
   padding: 5px;
 }
-
+.team-member{
+  width: 166px;
+  height: 177px;
+}
+.backgroundImag{
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
 .headerr{
   
   text-align: center;
@@ -341,12 +344,11 @@ span {
   margin: 5%;
   margin-top: 71px;
   margin-bottom: 0;
+  flex-wrap: wrap;
 }
 .footer .left{
    display: flex;
    
-   width: 37vw;
-   height: 100vh;
 }
 .footer .left img{
 
