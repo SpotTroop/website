@@ -1,179 +1,187 @@
 header{
-    position: fixed;
-    display: flex;
-    text-decoration: none;
-    background-color: #1b1d1f;
-    width: 100vw;
-    height: 58px;
-    color: rgb(247, 248, 249);
-    justify-content: space-around;
-    z-index: 99;
-    
+  position: fixed;
+  display: flex;
+  text-decoration: none;
+  background-color: #1b1d1f;
+  width: 100vw;
+  height: 58px;
+  color: rgb(247, 248, 249);
+  justify-content: space-around;
+  z-index: 99;
+  
 }
 
 nav ul{
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  justify-content: space-between;
- 
-  width: 100%;
+display: flex;
+flex-direction: row;
+list-style: none;
+justify-content: space-between;
+
+width: 100%;
 }
 .nav-ul .nav-link a{
-  display: flex;
-  color: aliceblue;
-  font-family: 'Russo One', sans-serif;
-  
+display: flex;
+color: aliceblue;
+font-family: 'Russo One', sans-serif;
+
 }
 .Logo{
-  display: flex;
-  align-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.Logo img{
-  width: 34px;
-  height: 34px;
-}
-.Logo p{
-  font-family: 'Russo One', sans-serif;
-  font-weight: bold;
-  font-size: xx-large;
-}
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .Logo img{
+    width: 34px;
+    height: 34px;
+  }
+  .Logo p{
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+  }
 
-.HomeMainImage h1{
-  position:absolute;
-  font-family: 'Russo One', sans-serif;
-  font-size: 70px;
-  text-transform: capitalize;
-  top: 13%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #1b1d1f;
-  letter-spacing: 0em;
- 
-}
-.HomeMainImage .Logo{
-  position:absolute;
-  top: 36%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.backgroundImag{
+    width: 98.5vw;
+    height: 100vh;
 
+    object-fit: cover;
+}
+.Home h1{
+    position:absolute;
+    font-family: 'Russo One', sans-serif;
+    font-size: 70px;
+    text-transform: capitalize;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #1b1d1f;
+    letter-spacing: 0em;
+   
+  }
+  .Home .Logo{
+    position:absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   
-}
-
-.HomeMainImage .content{
-  position:absolute;
-  top: 59%;;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    
+  }
   
- 
-}
-
-
-.HomeMainImage .sensor{
-  position:absolute;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  .Home .content{
+    position:absolute;
+    top: 59%;;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+   
+  }
   
-}
-
-.Y1 {
-  transform: translate(-68px, 167px) rotate(-85deg);
-}
-
-.O1 {
-  transform: translate(-89px, 152px) rotate(283deg);
-
-}
-
-.e2 {
-  transform: translate(-103px, 134px) rotate(-79deg)
-}
-
-.k1 {
-  transform: translate(-113px, 120px) rotate(-75deg);
-}
-.sear{
-  transform: translate(-128px, 75px) rotate(-58deg);
-
-}
-.ch{
-  transform: translate(-148px, 36px) rotate(-47deg)
-}
-
-.for {
-  transform: translate(-145px, 1px) rotate(-35deg);
-}
-.par {
-  transform: translate(-132px, -26px) rotate(-11deg);
-}
-.king {
-  transform: translate(-132px, -27px) rotate(3deg);
-}
-.spa {
-  transform: translate(-120px, -14px) rotate(18deg);
-}
-.ce{
-  transform: translate(-123px, 4px) rotate(27deg);
-}
-.en{
-  transform: translate(-117px, 36px) rotate(44deg);
-}
-.ds{
-  transform: translate(-128px, 65px) rotate(52deg);
-
-}
-.he{
-  transform:translate(-141px, 117px) rotate(77deg)
-}
-.re{
-  transform: translate(-169px, 150px) rotate(89deg);
-}
-.e4 {
-  transform: translate(-6px, 40px) rotate(20deg);
-}
-
-/* An inline-block element is placed as an inline
-element (on the same line as adjacent content), 
-but it behaves like a block element  */
-
-span {
-  display: inline-block;
-  font-size: 32px;
-  font-weight: bold;
   
-}
-
-.container {
-  top: 86%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 62%;
-  margin-left: auto;
-  margin-right: auto;
-  position:absolute;
-}
-
-.button {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  color: aliceblue;
-  background-color: #1b1d1f;
-  border: 1px solid rgb(11, 11, 11);
-}
-
+  .Home .sensor{
+    position:absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  .Y1 {
+    transform: translate(-68px, 167px) rotate(-85deg);
+  }
+  
+  .O1 {
+    transform: translate(-89px, 152px) rotate(283deg);
+  
+  }
+  
+  .e2 {
+    transform: translate(-103px, 134px) rotate(-79deg)
+  }
+  
+  .k1 {
+    transform: translate(-113px, 120px) rotate(-75deg);
+  }
+  .sear{
+    transform: translate(-128px, 75px) rotate(-58deg);
+  
+  }
+  .ch{
+    transform: translate(-148px, 36px) rotate(-47deg)
+  }
+  
+  .for {
+    transform: translate(-145px, 1px) rotate(-35deg);
+  }
+  .par {
+    transform: translate(-132px, -26px) rotate(-11deg);
+  }
+  .king {
+    transform: translate(-132px, -27px) rotate(3deg);
+  }
+  .spa {
+    transform: translate(-120px, -14px) rotate(18deg);
+  }
+  .ce{
+    transform: translate(-123px, 4px) rotate(27deg);
+  }
+  .en{
+    transform: translate(-117px, 36px) rotate(44deg);
+  }
+  .ds{
+    transform: translate(-128px, 65px) rotate(52deg);
+  
+  }
+  .he{
+    transform:translate(-141px, 117px) rotate(77deg)
+  }
+  .re{
+    transform: translate(-169px, 150px) rotate(89deg);
+  }
+  .e4 {
+    transform: translate(-6px, 40px) rotate(20deg);
+  }
+  
+  /* An inline-block element is placed as an inline
+  element (on the same line as adjacent content), 
+  but it behaves like a block element  */
+  
+  span {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+    
+  }
+  
+  .container {
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 62%;
+    margin-left: auto;
+    margin-right: auto;
+    position:absolute;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: aliceblue;
+    background-color: #1b1d1f;
+    border: 1px solid rgb(11, 11, 11);
+    margin-bottom: 15px;
+  }
+  
+  
 .SpotFinder{
   display: flex;
   flex-wrap: wrap;
- 
+  width: 100%;
   margin-top: 100px;
   line-height: 1.5em;
   justify-content: center;
@@ -182,7 +190,8 @@ span {
 .SpotFinder .left{
   display: flex;
   align-items: center;
-  width: 50%;
+  width: 60vw;
+  margin-bottom: 10px;
 }
 .SpotFinder .left .para{
   display: flex;
@@ -201,38 +210,8 @@ span {
 
 .SpotFinder .right{
   display: flex;
+  margin-bottom: 10px;
   
-}
-.SpotSense{
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 100px;
-  line-height: 1.5em;
-  justify-content: center;
-  
-}
-
-.SpotSense .left{
-  display: flex;
-  width: 50vw;
-
-}
-.SpotSense .left .para{
-  display: flex;
-  width: 30vw;
-  flex-direction: column;
-}
-
-.DownloadButton{
-    display: flex;
-    align-content: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 3rem;
-}
-
-.SpotSense .right{
-  display: flex;
 }
 
 .mobile {
@@ -297,11 +276,77 @@ span {
   height: 30px;
   border-radius: 0 0 45px 45px;
 }
+
+
+.SpotSense{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  line-height: 1.5em;
+  justify-content: center;
+  
+}
+
+.SpotSense .left{
+  display: flex;
+  width: 40vw;
+  margin-bottom: 10px;
+
+}
+.SpotSense .left .para{
+  display: flex;
+  width: 30vw;
+  flex-direction: column;
+}
+
+
+.SpotSense .right{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.SpotSense1{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  line-height: 1.5em;
+  justify-content: center;
+  
+}
+
+.SpotSense1 .left{
+  display: flex;
+  width: 50vw;
+  margin-bottom: 10px;
+
+}
+.SpotSense1 .left .para{
+  display: flex;
+  width: 30vw;
+  flex-direction: column;
+}
+
+
+.SpotSense1 .right{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+
+.DownloadButton{
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
 .sensor1{
   position: absolute;
-  left: 50%;
+  left: 58%;
   transform: translate(238%, 1415%);
 }
+
 /* team member image section */
 .team {
   display: flex;
@@ -318,11 +363,6 @@ span {
   width: 166px;
   height: 177px;
 }
-.backgroundImag{
-  height: 100vh;
-  width: 100vw;
-  object-fit: cover;
-}
 .headerr{
   
   text-align: center;
@@ -337,7 +377,6 @@ span {
   margin: 2%;
   padding: 5px;
 }
-
 
 .footer{
   display: flex;

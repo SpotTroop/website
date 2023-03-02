@@ -1,12 +1,11 @@
 import React from "react";
 import Header from "../component/Header";
 
-
-const Home = () => {
+function Home(){
   return (
     <>
      <Header/>
-      <div className="HomeMainImage">
+      <div className="Home">
         <h1>SpootTroop</h1>
         <div
           style={{
@@ -40,8 +39,8 @@ const Home = () => {
         </div>
         <img
           src="../src/assets/Parking.webp"
-          alt="background image"
-          style={{ objectFit: "cover", width: "100vw", height: "100vh" }}
+          alt="background image" className="backgroundImag"
+          
         />
         <img
           src="../src/assets/Logo.webp"
@@ -59,7 +58,6 @@ const Home = () => {
           className="sensor"
         />
       </div>
-
       <div className="SpotFinder">
         <div className="left">
           <div className="para">
@@ -96,7 +94,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="SpotSense">
+      <div className="SpotSense1">
         <div className="left">
           <div className="para">
             <h1>SpotSense</h1>
@@ -154,17 +152,17 @@ const Home = () => {
       <div className="team">
         
         <div className="member">
-          <img src="../src/assets/erik.png" alt="erik" width={166} height={175}  />
+          <img src="../src/assets/erik.png" alt="erik" className="team-member"  />
           <p>Eric Astor </p>
           <p>CFO</p>
         </div>
         <div className="member">
-          <img src="../src/assets/florian.png" alt="florian" width={166} height={175}  />
+          <img src="../src/assets/florian.png" alt="florian" className="team-member"  />
           <p>Florian Manthey </p>
           <p>CEO</p>
         </div>
         <div className="member">
-          <img src="../src/assets/waqar.png"  alt="waqar" width={166} height={175}/>
+          <img src="../src/assets/waqar.png"  alt="waqar" className="team-member" />
           <p>Waqar Rashid </p>
           <p>CTO</p>
         </div>
@@ -224,9 +222,8 @@ const Home = () => {
         </div>
         </div>
         </div>
-
-    </>
-  );
-};
-
+      </>
+    );
+    
+}
 export default Home;
