@@ -37,26 +37,11 @@ function Home(){
           <button className="button">Try for free</button>
           <button className="button">pricing plane</button>
         </div>
-        <img
-          src="../src/assets/Parking.webp"
-          alt="background image" className="backgroundImag"
-          
-        />
-        <img
-          src="../src/assets/Logo.webp"
-          alt="Logo"
-          width={91.01}
-          height={91.01}
-          className="Logo"
-        />
-        {/* <img src="../src/assets/HomePageContent.webp" alt="" width={582} height={292} classNameName="content" /> */}
-        <img
-          src="../src/assets/SensorImage.webp"
-          alt="Sensor"
-          width={93.49}
-          height={30.39}
-          className="sensor"
-        />
+        <img src="../src/assets/Parking.webp" alt="background image" className="backgroundImag"/>
+        <img src="../src/assets/Logo.webp" alt="Logo" width={91.01}
+          height={91.01} className="Logo" />
+        <img src="../src/assets/HomePageContent.webp" alt="curve text"  className="content" />
+        <img src="../src/assets/SensorImage.webp" alt="Sensor" className="sensor" />
       </div>
       <div className="SpotFinder">
         <div className="left">

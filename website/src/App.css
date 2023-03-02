@@ -30,6 +30,7 @@ font-family: 'Russo One', sans-serif;
     align-content: space-around;
     flex-wrap: wrap;
     align-items: center;
+    
   }
   .Logo img{
     width: 34px;
@@ -74,12 +75,14 @@ font-family: 'Russo One', sans-serif;
     top: 59%;;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+    display: none;
    
   }
   
   
   .Home .sensor{
+    width: 85px;
+    height: 27px;
     position:absolute;
     top: 75%;
     left: 50%;
@@ -427,3 +430,30 @@ font-family: 'Russo One', sans-serif;
   flex-direction: row;
 }
 
+
+@media only screen and (max-width: 1152px) {
+  .re{
+    transform: translate(366px, 122px) rotate(89deg);
+    
+  }
+}
+@media only screen and (max-width: 1092px) {
+  .he{
+    transform: translate(358px, 85px) rotate(77deg);
+    
+  }
+  .re {
+    transform: translate(329px, 120px) rotate(89deg);
+}
+
+}
+
+@media only screen and (max-width: 1017px) {
+span {
+  display: none;
+}
+.Home .content{
+  display: block;
+}
+
+}
